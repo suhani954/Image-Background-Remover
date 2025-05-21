@@ -28,3 +28,6 @@ The image is processed using AI to remove the background. The API returns the mo
 The frontend displays the new image using URL.createObjectURL(blob) and enables a download button for the result.
 5. Optional Dark Mode:
 A button toggles between light and dark UI themes by adding/removing a dark class on the <body>.
+
+
+![image](https://github.com/user-attachments/assets/6ca62073-f3c4-4115-81f8-6a8d28186882)
