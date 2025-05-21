@@ -30,5 +30,4 @@ The frontend displays the new image using URL.createObjectURL(blob) and enables 
 A button toggles between light and dark UI themes by adding/removing a dark class on the <body>.
 
 
-
 ![image](https://github.com/user-attachments/assets/6ca62073-f3c4-4115-81f8-6a8d28186882)
