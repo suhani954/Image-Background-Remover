@@ -1,6 +1,5 @@
 # IMAGE BACKGROUND REMOVER – FRONT-END PROJECT
 **Project Overview:**
-
 This project is a user-friendly web application that allows users to upload an image from their device and automatically removes its background using the remove.bg AI API. The web app is built entirely with frontend technologies and delivers a seamless, professional experience through a combination of modern UI, responsive design, and interactive features. 
 
 **Key Features:**
@@ -29,4 +28,3 @@ The image is processed using AI to remove the background. The API returns the mo
 The frontend displays the new image using URL.createObjectURL(blob) and enables a download button for the result.
 5. Optional Dark Mode:
 A button toggles between light and dark UI themes by adding/removing a dark class on the <body>.
-
