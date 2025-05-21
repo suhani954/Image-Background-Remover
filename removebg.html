@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Background Remover</title>
+  <link rel="stylesheet" href="rbg.css" />
+  <script defer src = "rmbg.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Smart Background Remover</h1>
+    <p>Upload or drag an image to remove its background using AI!</p>
+
+    <!-- <div class="toggle-mode">
+      <label for="darkMode">🌙 Dark Mode</label>
+      <input type="checkbox" id="darkMode">
+    </div> -->
+
+    <div class="toggle-mode">
+    <button id="darkModeBtn">🌙 Enable Dark Mode</button>
+    </div>
+
+
+    <div class="upload-section" id="dropArea">
+      <p>Drop image here or</p>
+      <input type="file" id="imageUpload" accept="image/*"/>
+      <button onclick="removeBackground()">Remove Background</button>
+      <div class="loader" id="loader"></div>
+    </div>
+
+    <div class="preview-section">
+      <div>
+        <h2>Original Image</h2>
+        <img id="originalImage" 
+        src="https://static.fotor.com/app/features/img/step_new/features/1-Protrait-origin.png" 
+        alt="Original" />
+
+      </div>
+      <div>
+        <h2>Processed Image</h2>
+        <img id="processedImage" 
+        src="https://static.fotor.com/app/features/img/step_new/features/1-Protrait.png" 
+        alt="Processed" />
+
+        <br>
+        <a id="downloadBtn" href="#" download="no-bg.png">Download</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
